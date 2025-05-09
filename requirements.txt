@@ -1,0 +1,36 @@
+# Framework web
+fastapi==0.105.0
+uvicorn[standard]==0.24.0
+
+# Procesamiento de formularios y archivos
+python-multipart==0.0.6
+
+# Desarrollo y entorno
+python-dotenv==1.0.0
+pydantic==2.5.2
+email-validator==2.1.0
+
+# Procesamiento de documentos PDF
+PyPDF2==3.0.1
+pdfminer.six==20221105
+
+# MongoDB
+motor==3.3.2
+pymongo==4.6.1
+
+# HTTP y comunicación
+aiohttp==3.9.1
+httpx==0.25.2
+
+# Procesamiento de lenguaje natural (opcional - si necesitas vectorización)
+sentence-transformers==2.2.2
+semantic-kernel==1.29.0        # ✅ disponible en PyPI
+
+# Vectorización y búsqueda
+chromadb==0.4.20
+
+# Utilidades
+numpy==1.26.2
+pandas==2.1.4
+tenacity==8.2.3
+loguru==0.7.2
